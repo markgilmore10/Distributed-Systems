@@ -15,7 +15,7 @@ public class Server {
 	
 	private io.grpc.Server grpcServer;
     private static final Logger logger = Logger.getLogger(Server.class.getName());
-    private static final int PORT = 10000;
+    private static final int PORT = 10001;
     
     public static void main(String[] args) throws IOException, InterruptedException {
         final Server server = new Server();
